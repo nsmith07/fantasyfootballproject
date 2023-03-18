@@ -1,8 +1,7 @@
 # Fantasy Football Project
 
-pip install - requirements.txt
 Installing this requirements text will install all packages needed to run my program
-
+pip install -r requirements.txt
 
 ## Read in Data
 I read my data in using pd.read_csv() by importing the pandas module. I read in my csv containing the fantasy football data for my project.
