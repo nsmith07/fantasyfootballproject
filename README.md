@@ -4,10 +4,11 @@ Installing this requirements text will install all packages needed to run my pro
 pip install -r requirements.txt
 
 ## Read in Data
-I read my data in using pd.read_csv() by importing the pandas module. I read in my csv containing the fantasy football data for my project.
+I read my data in using pd.read_csv() by importing the pandas module. I read in the first csv titled 'fantasyfootball.csv'. My goal for the project was to make a determination on what positions to priortize in a fantasy football draft so I needed to read in a second csv that would have the average draft position. This csv was 'fantasyfootballrank.csv'. I needed to merge these two datasets to be able analyze them so I used the pd.merge function in pandas.
 
 
 ## Manipulate and Clean Data
+I dropped several columns from my data that weren't useful to my project by using the .drop function. I also renamed columns to make this columns easier to read and more specific using the .rename function.
 I cleaned my data by taking my dataframe and breaking it down into indivual dataframes based on the position a football player plays. For example, I have individual dataframes for Quarterback (qb), Runningback(rb), Wide Reciever(wr), Tight End(te). Then, I created the function transform_columns to add the specific columns I wanted to each dataframe. 
 
 
