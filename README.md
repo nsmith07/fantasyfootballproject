@@ -1,7 +1,7 @@
 # Fantasy Football Project
 
 Installing this requirements text will install all packages needed to run my program
-pip install -r requirements.txt
+pip install -r requirements.txt. Python Version - 3.11.1
 
 ## Read in Data
 I read my data in using pd.read_csv() by importing the pandas module. I read in the first csv titled 'fantasyfootball.csv'. My goal for the project was to make a determination on what positions to priortize in a fantasy football draft so I needed to read in a second csv that would have the average draft position. This csv was 'fantasyfootballrank.csv'. I needed to merge these two datasets to be able analyze them so I used the pd.merge function in pandas.
