@@ -17,4 +17,4 @@ I want to analyze to find trends of what positions to priortize when drafting a 
 
 ## Interpret Your Data and Graphical Output
 
-I want to find a way to use Django or flask to create a website, or use tkinter to visulize my data.
+
